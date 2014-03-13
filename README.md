@@ -1,4 +1,6 @@
-C
+The repository with C code
 =
 
-something a bit nooby
+Something a bit nooby...
+Mostly homework tasks and other algorithmic tasks
+
