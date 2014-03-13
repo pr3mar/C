@@ -51,14 +51,14 @@ void izpisi(int *pTabela, int stElementov)
 	}
 	printf("\n");
 }
-
+// zamenjaj 2 vrednosti
 void swap(int *x, int *y)
 {
 	int tmp = *x;
 	*x = *y;
 	*y = tmp;
 }
-
+// uredi po naraščajočem vrstnem redu
 void urediNavadno(int *pTabela, int stElementov)
 {
 	int i, j;
@@ -73,7 +73,7 @@ void urediNavadno(int *pTabela, int stElementov)
 		} 
 	}
 }
-
+// uredi le soda števila po naraščajočem vrstnem redu
 void uredi(int *pTabela, int stElementov)
 {
 	int i, j;
