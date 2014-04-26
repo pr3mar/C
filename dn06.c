@@ -3,6 +3,7 @@
 #include<string.h>
 #include<math.h>
 
+
 #define SIZE 100
 // funkcije sklada
 int velicina(double *sklad); // vrne velikost sklada
