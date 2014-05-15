@@ -3,11 +3,10 @@
 #include<string.h>
 #include<math.h>
 
-
 #define SIZE 100
 // funkcije sklada
 int velicina(double *sklad); // vrne velikost sklada
-void enlarge(double *array); // 
+double* enlarge(double *array); // 
 void push(double *sklad, double stevilo);
 double pop(double *sklad);
 double top(double *sklad);
@@ -146,17 +145,18 @@ int velicina(double *sklad)
 	}
 }
 
-void enlarge(double *array)
+double* enlarge(double *array)
 {
 	size = size + SIZE;
 	array = (double*) realloc(array, sizeof(double) * size);
+	return array;
 }
 
 void push(double *sklad, double stevilo)
 {
 	if(usedSpace == (size - 1))
 	{
-		enlarge(sklad);
+		sklad = enlarge(sklad);
 	}
 	if(usedSpace < 0)
 	{
