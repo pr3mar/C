@@ -1,6 +1,6 @@
-The repository with C code
+C, done the FRI way
 =
 
-Something a bit nooby...
-Mostly homework tasks and other algorithmic tasks
+Homework and excercises from Programming 2 @FRI, University of Ljubljana.
+Feel free to improve my code, looking forward to any optimization of my code.
 
