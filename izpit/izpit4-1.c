@@ -34,7 +34,7 @@ int main()
 			lLen++;
 			lSum += array[i];
 		} else {
-			printf("[%d, %d]\n", lSum, lLen);
+			//printf("[%d, %d]\n", lSum, lLen);
 			if(lLen > len) {
 				sum = lSum;
 				len = lLen;
@@ -45,7 +45,7 @@ int main()
 		}
 	}
 	
-	print(array, velikost);
+	//print(array, velikost);
 
 	printf("%d %d\n", index, len);
 	free(array);
