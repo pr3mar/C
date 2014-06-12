@@ -3,7 +3,9 @@
 #include <string.h>
 #include <stdbool.h>
 #include <math.h>
-//izpit2 (4/5) nal2, najdaljse obobje visokih temperatur 
+
+//DOKONCANA DELA
+//izpit2 (4/5) nal2, najdaljse obobje visokih temperatur
 
 int main(){
 	int temp, zac=-1, stdni=0, i=0, starzac=0, starstdni=0;
@@ -11,6 +13,13 @@ int main(){
 	while(1){
 		scanf("%d", &temp);
 		if(temp==-9999){
+			if(zac!=-1){
+				starzac=zac;
+			}
+			zac=-1;
+			starstdni=stdni;
+			stdni=0;
+			
 			break;
 		}
 		i++;
@@ -33,3 +42,5 @@ int main(){
 	printf("%d %d\n", starzac, starstdni);
 	return 0;
 }
+
+ 
