@@ -35,7 +35,7 @@ int main()
 			lSum += array[i];
 		} else {
 			printf("[%d, %d]\n", lSum, lLen);
-			if(lSum > sum) {
+			if(lLen > len) {
 				sum = lSum;
 				len = lLen;
 				index = i - len + 1;
